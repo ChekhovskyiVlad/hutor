@@ -1,0 +1,60 @@
+
+.header{
+    display: flex;
+    padding-top: 15px;
+}
+.logo{
+    position: absolute;
+}
+.logo__photo{
+    cursor: pointer;
+}
+.menu{
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__list-item{
+        cursor: pointer;
+        padding-right: 40px;
+    }
+
+    &__list-text{
+        font-family: "Work Sans", serif;
+        font-weight: 300;
+        font-size:  28px;
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+.description__line{
+    width: 100%;
+    position: absolute;
+    margin-top: 60px;
+    border-style: inset;
+    display: block;
+}
+
+
+
+
+
+@media (max-width: 530px) {
+
+    .menu__list{
+        margin-left: 30px;
+        justify-content: space-between;
+    }
+    .menu__list-text{
+        font-size: 20px;
+    }
+
+    .logo__photo{
+        width: 70px;
+        height: 20px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+}
