@@ -19,7 +19,7 @@ export const Header = () => {
                 <div className="header__body">
 
 
-          <div className='logo' ><img className='logo__photo' src='../public/img/logo.png'></img></div>
+          <div className='logo' ><img className='logo__photo' src='/img/logo.png'></img></div>
             <div className='menu'>
 
                 <ul className="menu__list">

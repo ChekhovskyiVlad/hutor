@@ -41,7 +41,7 @@ export const Main = () => {
             </div>
           <div className="donut__container">
 
-            <img src='../../../public/donut.gif' className='donut'/>
+            <img src='/donut.gif' className='donut'/>
           </div>
 
 
@@ -52,10 +52,10 @@ export const Main = () => {
             <div className="social">
                 <ul className="social__menu">
                     <li className="social__menu-item">
-                        <img src='../../../public/img/instagram-icon.svg'/>
+                        <img src='/img/instagram-icon.svg'/>
                     </li>
                     <li className="social__menu-item">
-                        <img src='../../../public/img/linkedin-icon.svg'/>
+                        <img src='/img/linkedin-icon.svg'/>
                     </li>
                 </ul>
             </div>
@@ -69,7 +69,7 @@ export const Main = () => {
             <article className="description">
                 <div className="container">
                     <div className="description__background">
-                        <img className='description__background-photo' src='../../../public/img/background.png' />
+                        <img className='description__background-photo' src='/img/background.png' />
                     </div>
 
                     <div className="description__text-body">
