@@ -20,12 +20,12 @@ export const Main = () => {
 
 
 
-
     return (
         <div>
             <article className="page__first">
 
             <div className="container">
+
 
 
             <div className="titles">
@@ -35,6 +35,8 @@ export const Main = () => {
                 <br></br>
                 Deliver.
             </h1>
+
+
             <h3 className='titles__title2'>
                 Your Web Studio Partner
             </h3>
@@ -60,7 +62,9 @@ export const Main = () => {
                 </ul>
             </div>
           </div>
-            </div>
+</div>
+
+
         <hr className='line'></hr>
 
             </article>
@@ -92,7 +96,7 @@ export const Main = () => {
 
             </article>
 
-
+            <pre id="d"></pre>
 
             <article className='offers'>
                 <div className="offers__body">
@@ -142,7 +146,6 @@ export const Main = () => {
                         </div>
                     </form>
                     </div>
-                    <h5 className="footer">Hutor Studio ©2023</h5>
                 </div>
             </article>
 
