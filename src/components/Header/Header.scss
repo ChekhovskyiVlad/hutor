@@ -1,7 +1,6 @@
 
 .header{
     display: flex;
-    padding-top: 15px;
 }
 .logo{
     position: absolute;
@@ -41,9 +40,6 @@
 
 
 @media (max-width: 530px) {
-    .menu__list-item{
-        margin-left: 60px;
-    }
     .menu__list-text{
         font-size: 20px;
     }
@@ -51,7 +47,7 @@
     .logo__photo{
         width: 70px;
         height: 20px;
-        margin-left: 100px;
+        margin-left: 20px;
         margin-top: 20px;
     }
 

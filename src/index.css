@@ -5,6 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
   font-size: 36px;
+  overflow-x: hidden;
 }
 body {
   background-color: #000;
@@ -13,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 .container {
-
+  overflow-x: hidden;
   max-width: 1387px;
   margin: 0 auto;
   width: 100%;
@@ -52,7 +53,6 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  overflow-x: hidden;
 }
 
 ul[class],
