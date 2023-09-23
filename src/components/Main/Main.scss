@@ -264,6 +264,12 @@ $gradient:  1px 0 1px #fff,
 }
 
 @media (max-width: 530px) {
+    .description__background-photo {
+        position: absolute;
+        padding-top: 260px;
+        width: 400px;
+        height: 600px;
+    }
     .social{
         display: none;
     }
@@ -296,7 +302,7 @@ $gradient:  1px 0 1px #fff,
         font-size: 24px;
     }
     .offers__list-item{
-        font-size: 40px;
+        font-size: 46px;
         line-height: 40px;
     }
     .contact__form-table{
@@ -316,8 +322,8 @@ $gradient:  1px 0 1px #fff,
         justify-content: center;
     }
     .contact__form-button-container{
-        padding-left: 0px;
-        padding-top: 100px;
+        padding-left: 30px;
+        padding-top: 60px;
     }
     .contact__form-button{
         padding:7px 25px;
