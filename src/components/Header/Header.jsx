@@ -4,7 +4,7 @@ export const Header = () => {
 
     const ScrollToContact = () => {
         window.scrollTo({
-            top: 2000,
+            top: 3000,
             left: 0,
             behavior: 'smooth'
         });

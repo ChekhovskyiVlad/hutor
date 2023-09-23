@@ -50,11 +50,11 @@ $gradient:  1px 0 1px #fff,
         padding-right: 15px;
         color: #fff;
         cursor: pointer;
-
     }
     &__menu-item img{
         width: 42px;
         height: 42px;
+        cursor: pointer;
     }
 }
 .donut{
@@ -100,6 +100,7 @@ $gradient:  1px 0 1px #fff,
     justify-content: center;
     &__body{
         padding-top: 110px;
+        padding-left: 100px;
     }
     &__background{
         width: 100%;
@@ -261,6 +262,10 @@ $gradient:  1px 0 1px #fff,
         font-size: 70px;
         line-height: 70px;
     }
+    .contact__body{
+        padding-left: 0px;
+    }
+
 }
 
 @media (max-width: 530px) {
@@ -268,7 +273,7 @@ $gradient:  1px 0 1px #fff,
         position: absolute;
         padding-top: 260px;
         width: 380px;
-        height: 620px;
+        height: 600px;
     }
     .social{
         display: none;
@@ -302,8 +307,8 @@ $gradient:  1px 0 1px #fff,
         font-size: 24px;
     }
     .offers__list-item{
-        font-size: 46px;
-        line-height: 40px;
+        font-size: 48px;
+        line-height: 50px;
     }
     .contact__form-table{
         border: 0;

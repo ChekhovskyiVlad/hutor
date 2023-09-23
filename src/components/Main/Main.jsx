@@ -54,10 +54,10 @@ export const Main = () => {
             <div className="social">
                 <ul className="social__menu">
                     <li className="social__menu-item">
-                        <img src='/img/instagram-icon.svg'/>
+                    <a href='https://www.instagram.com/hutorua/?igshid=OGQ5ZDc2ODk2ZA%3D%3D'><img src='/img/instagram-icon.svg'/></a>
                     </li>
                     <li className="social__menu-item">
-                        <img src='/img/linkedin-icon.svg'/>
+                        <a> <img src='/img/linkedin.png'/></a>
                     </li>
                 </ul>
             </div>
@@ -126,12 +126,12 @@ export const Main = () => {
 
                 <div className="contact__body">
                     <div className="contact__form-table">
-                    <form action="" className="contact__form">
+                    <form className="contact__form" action="https://formsubmit.co/ourhutor@gmail.com" method="POST">
                         <div className="contact__form-body">
                         <h3 className='contact__title'>ourhutor@gmail.com</h3>
-                        <input type="text" className="contact__form-name" placeholder='Name' required/>
-                        <input type="email" className="contact__form-email" placeholder='Email' required/>
-                        <input type="email" className="contact__form-text" placeholder='Your Message' required/>
+                        <input type="text" name='name' className="contact__form-name" placeholder='Name' required maxLength="50"/>
+                        <input type="email" name='email'className="contact__form-email" placeholder='Email' required maxLength="50"/>
+                        <input type="text" name='message' className="contact__form-text" placeholder='Your Message' required maxLength="250"/>
                         </div>
                         <div className="contact__form-button-container">
                         <button className="contact__form-button">Send Message</button>
