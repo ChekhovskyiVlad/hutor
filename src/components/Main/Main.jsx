@@ -63,13 +63,8 @@ export const Main = () => {
             </div>
           </div>
 </div>
-
-
         <hr className='line'></hr>
-
             </article>
-
-
             <article className="description">
                 <div className="container">
                     <div className="description__background">
@@ -99,6 +94,7 @@ export const Main = () => {
             <pre id="d"></pre>
 
             <article className='offers'>
+                <div className="container">
                 <div className="offers__body">
                         <motion.ul className="offers__list" custom={1} variants={textAnimation} initial="hidden" whileInView="visiable">
                             <li className="offers__list-item">
@@ -118,37 +114,31 @@ export const Main = () => {
                             </li>
                         </motion.ul>
                 </div>
+                </div>
             </article>
-
 
             <article className="contact">
                 <div className="contact__background">
                 </div>
+                <div className="container">
+
                 <div className="contact__body">
-
-
                     <div className="contact__form-table">
-
                     <form action="" className="contact__form">
-
                         <div className="contact__form-body">
-
                         <h3 className='contact__title'>ourhutor@gmail.com</h3>
                         <input type="text" className="contact__form-name" placeholder='Name' required/>
-
                         <input type="email" className="contact__form-email" placeholder='Email' required/>
                         <input type="email" className="contact__form-text" placeholder='Your Message' required/>
                         </div>
-
                         <div className="contact__form-button-container">
-
                         <button className="contact__form-button">Send Message</button>
                         </div>
                     </form>
+                </div>
                     </div>
                 </div>
             </article>
-
         </div>
     )
 }
