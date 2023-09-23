@@ -4,13 +4,20 @@ export const Header = () => {
 
     const ScrollToContact = () => {
         window.scrollTo({
-            top: 1800,
+            top: 2000,
             left: 0,
             behavior: 'smooth'
         });
     }
 
 
+    const ScrollToServices= () => {
+        window.scrollTo({
+            top: 1300,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }
     return(
         <div>
             <header className='header'>
@@ -25,7 +32,7 @@ export const Header = () => {
                 <ul className="menu__list">
                     <li className="menu__list-item">
 
-                        <a className='menu__list-text'  onClick={() => ScrollToContact()}>
+                        <a className='menu__list-text'  onClick={() => ScrollToServices()}>
 
                         Services
                         </a>

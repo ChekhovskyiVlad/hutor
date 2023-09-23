@@ -170,10 +170,10 @@ $gradient:  1px 0 1px #fff,
     }
 
     &__list-item{
-        line-height:90px;
+        line-height:100px;
         text-align: center;
         font-family: 'Mak', serif;
-        font-size: 90px;
+        font-size: 100px;
         font-weight: 400;
         text-transform: uppercase;
         color: #111;
@@ -257,6 +257,10 @@ $gradient:  1px 0 1px #fff,
     .contact__form input {
       width: 500px;
     }
+    .offers__list-item{
+        font-size: 70px;
+        line-height: 70px;
+    }
 }
 
 @media (max-width: 530px) {
@@ -294,8 +298,8 @@ $gradient:  1px 0 1px #fff,
         font-size: 24px;
     }
     .offers__list-item{
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 60px;
+        line-height: 60px;
     }
     .contact__form-table{
         border: 0;

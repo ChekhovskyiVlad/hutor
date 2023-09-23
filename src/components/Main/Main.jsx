@@ -120,7 +120,6 @@ export const Main = () => {
             <article className="contact">
                 <div className="contact__background">
                 </div>
-                <div className="container">
 
                 <div className="contact__body">
                     <div className="contact__form-table">
@@ -137,7 +136,6 @@ export const Main = () => {
                     </form>
                 </div>
                     </div>
-                </div>
             </article>
         </div>
     )
