@@ -275,10 +275,9 @@ $gradient:  1px 0 1px #fff,
         width: 380px;
         height: 600px;
     }
-    .social{
-        display: none;
+    .buttons{
+        display: flex;
     }
-
     .titles{
         padding-top: 100px;
         text-align: center;

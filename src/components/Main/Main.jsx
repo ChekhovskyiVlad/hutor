@@ -17,7 +17,13 @@ export const Main = () => {
     }
 
 
-
+    const ScrollToContact = () => {
+        window.scrollTo({
+            top: 3000,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }
 
 
     return (
@@ -49,7 +55,7 @@ export const Main = () => {
 
           <div className="buttons">
 
-            <button className='button'>Get Request</button>
+            <button className='button'onClick={() => ScrollToContact()} >Get Request</button>
 
             <div className="social">
                 <ul className="social__menu">

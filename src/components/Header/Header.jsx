@@ -13,7 +13,7 @@ export const Header = () => {
 
     const ScrollToServices= () => {
         window.scrollTo({
-            top: 1300,
+            top: 1550,
             left: 0,
             behavior: 'smooth'
         });
