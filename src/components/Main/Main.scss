@@ -277,6 +277,8 @@ $gradient:  1px 0 1px #fff,
     }
     .buttons{
         display: flex;
+        flex-direction: column;
+        align-items: baseline
     }
     .titles{
         padding-top: 100px;
@@ -306,7 +308,7 @@ $gradient:  1px 0 1px #fff,
         font-size: 24px;
     }
     .offers__list-item{
-        font-size: 48px;
+        font-size: 52px;
         line-height: 50px;
     }
     .contact__form-table{
